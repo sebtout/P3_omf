@@ -1,0 +1,221 @@
+/*VARIABLE*/
+/*GLOBAL*/
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-family: 'Shrikhand', cursive;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*HEADER*/
+.titre_site {
+  text-align: center;
+}
+
+/*BODY*/
+/*menu NAV*/
+.lieu {
+  padding: 15px 0 15px 0;
+  background-color: #d9d8d8;
+  -webkit-box-shadow: 0px 6px 2px -3px rgba(0, 0, 0, 0.25) inset;
+          box-shadow: 0px 6px 2px -3px rgba(0, 0, 0, 0.25) inset;
+}
+
+.info_bouton {
+  padding: 10px 0 35px 0;
+}
+
+nav {
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+.bouton_explo {
+  background: #ff79da;
+  background: radial-gradient(circle, #ff79da 0%, #9356dc 100%);
+  -webkit-box-shadow: 0px 6px 2px -3px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 6px 2px -3px rgba(0, 0, 0, 0.25);
+  width: 40%;
+  margin-left: 30%;
+  padding: 15px 0 15px 0;
+  border-radius: 50px;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.bouton_explo:hover {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+}
+
+/*fonctionnement*/
+.fonctionnement {
+  margin: 35px 0 45px 0;
+}
+
+.fonction {
+  background-color: #f2f2f2;
+  margin: 10px 10px 20px 20px;
+  padding: 20px 0 20px 0;
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fonctionnement h2 {
+  margin-left: 20px;
+}
+
+.fonction i {
+  margin: 0 25px 0 35px;
+}
+
+.num {
+  background-color: #9356dc;
+  border-radius: 50px;
+  width: 25px;
+  height: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  left: 8px;
+}
+
+.fa-mobile-alt {
+  font-size: 1.4em;
+  color: grey;
+}
+
+.fa-list {
+  font-size: 1.2em;
+  color: grey;
+}
+
+.fa-store {
+  font-size: 1em;
+  color: grey;
+}
+
+/*liste des restau*/
+.liste_des_restau {
+  background-color: #f2f2f2;
+  padding: 25px 15px 55px 15px;
+}
+
+.info_restau {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 20px 0 10px;
+}
+
+.heart {
+  margin-top: 25px;
+  font-size: 25px;
+}
+
+.fa-heart {
+  color: #464646;
+}
+
+.fa-heart:hover {
+  color: red;
+}
+
+.coeur {
+  position: relative;
+  left: 31px;
+  font-size: 1.6rem;
+}
+
+/*article*/
+article {
+  background-color: #fff;
+  border-radius: 20px;
+  margin: 10px 0 20px 0;
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.4);
+}
+
+article img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.new {
+  background-color: #99e2d0;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px 0 10px 0;
+  border-radius: 2px;
+  position: absolute;
+  right: 30px;
+  margin-top: 15px;
+}
+
+.nom_restau h3 {
+  margin-top: 10px;
+}
+
+.nom_restau p {
+  margin-top: -15px;
+}
+
+/*FOOTER*/
+footer {
+  background-color: #3f3f3f;
+}
+
+.bloc {
+  padding: 20px 0 25px 20px;
+  height: 100%;
+}
+
+.logo_info_footer {
+  font-family: 'Shrikhand', cursive;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.info_footer {
+  margin: 5px 0 5px 0;
+  color: #fff;
+}
+
+.fa-hands-helping {
+  font-size: 0.7em;
+}
+
+.fa-hands-helping, .fa-utensils {
+  margin-right: 10px;
+}
+/*# sourceMappingURL=style.css.map */

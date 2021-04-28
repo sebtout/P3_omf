@@ -1,0 +1,143 @@
+/*GLOBAL*/
+h1{
+    font-family: 'Shrikhand', cursive;
+}
+
+body{
+    margin: 0;
+    background-color: #f2f2f2;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+}
+
+div img{
+    width: 100%;
+}
+/*HEADER*/
+
+header{
+    background-color: #f2f2f2;
+}
+
+.titre_site{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+.titre_site h1{
+    text-align: center;
+}
+.fa-arrow-left{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 1.5em;
+}
+a .fa-arrow-left{
+    color: #2c2c2c;
+}
+
+/*SECTION*/
+.nom_du_restau{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 0 20px;
+}
+.repas{
+    margin: 0 0 50px 0;
+}
+.fa-heart{
+    font-size: 1.5em;
+    margin-right: 35px;
+}
+
+/*LISTE*/
+.liste{
+    background-color: #f2f2f2;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+/*MENU*/
+.titre_repas{
+    margin-left: 15px;
+}
+article{
+    background-color: #fff;
+    margin: 10px 10px 10px 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    box-shadow: 0px 6px 2px -3px rgba(0,0,0,0.25);
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+.prix{
+    margin-right: 20px;
+    margin-top: 35px;
+}
+.commander{
+    background: rgb(255,121,218);
+background: radial-gradient(circle, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
+    box-shadow: 0px 6px 2px -3px rgba(0,0,0,0.25);
+    width: 40%;
+    margin-left: 30%;
+    padding: 15px 0 15px 0;
+    border-radius: 50px;
+    text-align: center;
+}
+.bouton_commande{
+    padding-bottom: 70px;
+}
+
+
+
+
+/*FOOTER*/
+footer{
+    background-color: #3f3f3f;
+}
+.bloc{
+    padding: 20px 0 25px 20px;
+    height: 100%;
+}
+.logo_info_footer{
+    font-family: 'Shrikhand', cursive;
+    margin-bottom: 15px;
+    color: #fff;
+}
+.info_footer{
+    margin: 5px 0 5px 0;
+    color: #fff;
+}
+.fa-hands-helping{
+    font-size: 0.7em;
+}
+.fa-hands-helping, .fa-utensils{
+    margin-right: 10px;
+}
+
+/* TEST */
+article:hover{
+    background-color: red;
+}
+footer {
+    background-color: #3f3f3f;
+    position: relative;
+    bottom: -1000px;
+}
+.liste {
+    background-color: #f2f2f2;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    position: absolute;
+    width: 100%;
+    top: 330px;
+}
