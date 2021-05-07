@@ -97,7 +97,24 @@ background: radial-gradient(circle, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 1
     padding-bottom: 70px;
 }
 
-
+/* keyframe*/
+@keyframes anim {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+.a1{
+    animation: 1s 0s 1 both anim;
+}
+.a2{
+    animation: 1s 0.5s 1 both anim;
+}
+.a3{
+    animation: 1s 1s 1 both anim;
+}
 
 
 /*FOOTER*/
