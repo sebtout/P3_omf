@@ -109,6 +109,9 @@ background: radial-gradient(circle, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 1
 }
 
 .fa-heart {
+    position: absolute;
+    top: 0;
+    right: 10px;
     color: rgb(70, 70, 70);
     &:hover {
         color: red;
