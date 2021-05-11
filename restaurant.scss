@@ -37,34 +37,26 @@ div img{
     }
 }
 .cube{
-    margin: 10px;
-}
-.load1{
-    background: powderblue;
-    width: 45px;
-    height: 20px;
-    animation: 1s 0s infinite both loader;
-}
-.load2{
-    background: powderblue;
-    width: 45px;
-    height: 20px;
-    animation: 1s 2s infinite both loader;
-}
-.load3{
-    background: powderblue;
-    width: 45px;
-    height: 20px;
-    animation: 1s 4s infinite both loader;
+    border: 10px solid #fff;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border-left-color: pink;
+    border-right-color: red;
+    animation: 5s 0s infinite both loader;
 }
 @keyframes loader {
-    from {
-        opacity: 1;
+    0% {
+        transform: rotate(0) scale(1);
     }
-    to {
-        opacity: 0;
+    50% {
+        transform: rotate(360deg) scale(1.20);
+    }
+    100% {
+        transform: rotate(720deg) scale(1);
     }
 }
+
 
 /*HEADER*/
 
