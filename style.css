@@ -1,4 +1,3 @@
-/*VARIABLE*/
 /*GLOBAL*/
 body {
   margin: 0;
@@ -16,6 +15,87 @@ a {
 /*HEADER*/
 .titre_site {
   text-align: center;
+}
+
+.load {
+  background: #1c411c;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+  -webkit-animation: 5s 0s 1 both startpage;
+          animation: 5s 0s 1 both startpage;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+@-webkit-keyframes startpage {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    z-index: -1;
+  }
+}
+
+@keyframes startpage {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    z-index: -1;
+  }
+}
+
+.cube {
+  border: 15px solid #fff;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border-left-color: pink;
+  border-right-color: red;
+  -webkit-animation: 5s 0s infinite both loader;
+          animation: 5s 0s infinite both loader;
+}
+
+@-webkit-keyframes loader {
+  0% {
+    -webkit-transform: rotate(0) scale(1);
+            transform: rotate(0) scale(1);
+  }
+  50% {
+    -webkit-transform: rotate(360deg) scale(1.2);
+            transform: rotate(360deg) scale(1.2);
+  }
+  100% {
+    -webkit-transform: rotate(720deg) scale(1);
+            transform: rotate(720deg) scale(1);
+  }
+}
+
+@keyframes loader {
+  0% {
+    -webkit-transform: rotate(0) scale(1);
+            transform: rotate(0) scale(1);
+  }
+  50% {
+    -webkit-transform: rotate(360deg) scale(1.2);
+            transform: rotate(360deg) scale(1.2);
+  }
+  100% {
+    -webkit-transform: rotate(720deg) scale(1);
+            transform: rotate(720deg) scale(1);
+  }
 }
 
 /*BODY*/
@@ -130,22 +210,27 @@ nav {
 }
 
 .heart {
+  position: relative;
   margin-top: 25px;
   font-size: 25px;
 }
 
 .fa-heart {
+  position: absolute;
+  top: 0px;
+  right: 10px;
   color: #464646;
 }
 
-.fa-heart:hover {
+.plein {
   color: red;
+  -webkit-transition: all 1s linear;
+  transition: all 1s linear;
+  opacity: 0;
 }
 
-.coeur {
-  position: relative;
-  left: 31px;
-  font-size: 1.6rem;
+.plein:hover {
+  opacity: 1;
 }
 
 /*article*/

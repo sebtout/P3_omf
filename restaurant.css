@@ -14,6 +14,7 @@ div img {
   width: 100%;
 }
 
+/*load changement de page*/
 /*HEADER*/
 header {
   background-color: #f2f2f2;
@@ -66,8 +67,20 @@ a .fa-arrow-left {
 }
 
 .fa-heart {
-  font-size: 1.5em;
   margin-right: 35px;
+  position: absolute;
+  right: 10px;
+}
+
+.plein {
+  color: red;
+  -webkit-transition: all 1s linear;
+  transition: all 1s linear;
+  opacity: 0;
+}
+
+.plein:hover {
+  opacity: 1;
 }
 
 /*LISTE*/
@@ -129,6 +142,39 @@ article {
 
 .bouton_commande {
   padding-bottom: 70px;
+}
+
+/* keyframe*/
+@-webkit-keyframes anim {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes anim {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.a1 {
+  -webkit-animation: 1s 0s 1 both anim;
+          animation: 1s 0s 1 both anim;
+}
+
+.a2 {
+  -webkit-animation: 1s 0.5s 1 both anim;
+          animation: 1s 0.5s 1 both anim;
+}
+
+.a3 {
+  -webkit-animation: 1s 1s 1 both anim;
+          animation: 1s 1s 1 both anim;
 }
 
 /*FOOTER*/

@@ -53,10 +53,17 @@ a .fa-arrow-left{
     margin: 0 0 50px 0;
 }
 .fa-heart{
-    font-size: 1.5em;
     margin-right: 35px;
     position: absolute;
     right: 10px;
+}
+.plein{
+    color: red;
+    transition: all 1s linear;
+    opacity: 0;
+    &:hover {
+        opacity: 1;
+    }
 }
 
 /*LISTE*/
