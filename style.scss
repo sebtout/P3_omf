@@ -110,6 +110,13 @@ nav{
     border-radius: 15px;
     display: flex;
     align-items: center;
+    .fonction_element, a{
+        font-size: 1.3em;
+        color: black;
+    }
+    :hover{
+        color: blueviolet;
+    }
 }
 .fonctionnement h2{
     margin-left: 20px;
@@ -173,7 +180,6 @@ nav{
     
 }
 .plein{
-    color: red;
     transition: all 1s linear;
     opacity: 0;
     &:hover {
@@ -200,11 +206,11 @@ article img{
     border-top-right-radius: 20px;
 }
 .new{
+    color: #367e6d;
     background-color: #99e2d0;
-    width: 100px;
     display: flex;
     justify-content: center;
-    padding: 10px 0 10px 0;
+    padding: 5px 15px;
     border-radius: 2px;
     position: absolute;
     right: 30px;
