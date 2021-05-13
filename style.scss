@@ -1,4 +1,7 @@
 /*GLOBAL*/
+a:hover{
+    color: #9356dc;
+}
 body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -100,6 +103,7 @@ nav{
     margin: 35px 0 45px 0;
 }
 .fonction{
+    box-shadow: 0px 6px 20px -5px rgba(0,0,0,0.75);
     background-color: #f2f2f2;
     margin: 10px 10px 20px 20px;
     padding: 20px 0 20px 0;
