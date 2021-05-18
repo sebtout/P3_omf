@@ -1,3 +1,5 @@
+
+
 /*GLOBAL*/
 a:hover{
     color: #9356dc;
@@ -252,3 +254,16 @@ footer{
 .fa-hands-helping, .fa-utensils{
     margin-right: 10px;
 }
+@media screen and (min-width: 1024px)
+    {
+        .restau{
+            max-width: 45%;
+
+        }
+        .liste_des_restau{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .new{
+        }
+    }

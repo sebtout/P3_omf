@@ -144,7 +144,7 @@ article {
   padding-bottom: 70px;
 }
 
-/* keyframe*/
+/* keyframe anim nom des plats*/
 @-webkit-keyframes anim {
   from {
     opacity: 0;
@@ -175,6 +175,36 @@ article {
 .a3 {
   -webkit-animation: 1s 1s 1 both anim;
           animation: 1s 1s 1 both anim;
+}
+
+.b1 {
+  -webkit-animation: 1s 1.5s 1 both anim;
+          animation: 1s 1.5s 1 both anim;
+}
+
+.b2 {
+  -webkit-animation: 1s 2s 1 both anim;
+          animation: 1s 2s 1 both anim;
+}
+
+.b3 {
+  -webkit-animation: 1s 2.5s 1 both anim;
+          animation: 1s 2.5s 1 both anim;
+}
+
+.c1 {
+  -webkit-animation: 1s 3s 1 both anim;
+          animation: 1s 3s 1 both anim;
+}
+
+.c2 {
+  -webkit-animation: 1s 3.5s 1 both anim;
+          animation: 1s 3.5s 1 both anim;
+}
+
+.c3 {
+  -webkit-animation: 1s 4s 1 both anim;
+          animation: 1s 4s 1 both anim;
 }
 
 /*FOOTER*/
