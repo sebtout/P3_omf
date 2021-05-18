@@ -137,6 +137,7 @@ nav {
 .bouton_explo:hover {
   -webkit-transform: scale(1.15);
           transform: scale(1.15);
+  opacity: 0.8;
 }
 
 .texte_explo, .num {
