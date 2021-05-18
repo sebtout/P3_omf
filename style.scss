@@ -92,6 +92,7 @@ nav{
     transform: scale(1);
     &:hover {
         transform: scale(1.15);
+        opacity: 0.8;
     }
 }
 .texte_explo, .num{
