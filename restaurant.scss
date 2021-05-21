@@ -75,7 +75,9 @@ a .fa-arrow-left{
 
 /*MENU*/
 
-
+.menu p{
+    margin: 0px;
+}
 
 .titre_repas{
     margin-left: 15px;
@@ -98,6 +100,18 @@ article{
 .prix{
     margin-right: 20px;
     margin-top: 35px;
+}
+.chek{
+    background-color: green;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 10px 10px 0;
+}
+.fa-check{
+    background-color: honeydew;
+    border-radius: 50%;
 }
 .commander{
     background: rgb(255,121,218);
