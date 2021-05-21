@@ -12,6 +12,7 @@ body{
 
 div img{
     width: 100%;
+    height: 250px;
 }
 /*load changement de page*/
 
@@ -71,6 +72,7 @@ a .fa-arrow-left{
     background-color: #f2f2f2;
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
+    position: relative;
 }
 
 /*MENU*/
@@ -199,13 +201,4 @@ article:hover{
 footer {
     background-color: #3f3f3f;
     position: relative;
-    bottom: -1000px;
-}
-.liste {
-    background-color: #f2f2f2;
-    border-top-right-radius: 30px;
-    border-top-left-radius: 30px;
-    position: absolute;
-    width: 100%;
-    top: 330px;
 }
