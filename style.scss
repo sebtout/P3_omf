@@ -112,6 +112,7 @@ nav{
     border-radius: 15px;
     display: flex;
     align-items: center;
+    position: relative;
     .fonction_element, a{
         font-size: 1.3em;
         color: black;
@@ -136,7 +137,7 @@ nav{
     justify-content: center;
     align-items: center;
     position: absolute;
-    left: 8px;
+    left: -12px;
 }
 .fa-mobile-alt{
     font-size: 1.4em;
@@ -257,6 +258,30 @@ footer{
 }
 @media screen and (min-width: 1024px)
     {
+        body{
+            max-width: 1280px;
+            margin: auto;
+        }
+        /* partie FONCTIONNEMENT*/
+
+        .fonction{
+            display: flex;
+        }
+        .fonctionnement{
+            display: block;
+        }
+        .bloc_fonction{
+            display: flex;
+        }
+        .fonctionnement h2{
+            width: 100%;
+        }
+
+        /* SECTION LISTE DES RESTAU*/
+        .liste_des_restau{
+            display: flex;
+            justify-content: space-around;
+        }
         .restau{
             max-width: 45%;
 
@@ -265,5 +290,12 @@ footer{
             display: flex;
             flex-wrap: wrap;
         }
+        .liste_des_restau h2{
+            width: 100%;
+        }
+        article{
+            position: relative;
+        }
+
         
     }
