@@ -5,13 +5,13 @@ h1 {
 
 body {
   margin: 0;
-  background-color: #f2f2f2;
-  background-attachment: fixed;
   font-family: 'Roboto', sans-serif;
+  /*background-image: url(images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);*/
 }
 
 div img {
   width: 100%;
+  height: 300px;
 }
 
 /*load changement de page*/
@@ -88,11 +88,17 @@ a .fa-arrow-left {
   background-color: #f2f2f2;
   border-top-right-radius: 30px;
   border-top-left-radius: 30px;
+  position: relative;
+  top: -30px;
 }
 
 /*MENU*/
 .menu p {
   margin: 0px;
+}
+
+.bold, .prix {
+  font-weight: bold;
 }
 
 .titre_repas {
@@ -114,6 +120,12 @@ article {
           box-shadow: 0px 6px 2px -3px rgba(0, 0, 0, 0.25);
 }
 
+.prix_et_check {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -128,13 +140,10 @@ article {
 }
 
 .prix {
-  margin-right: 20px;
-  margin-top: 35px;
+  margin-top: 30px;
 }
 
 .chek {
-  background-color: green;
-  width: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -147,18 +156,23 @@ article {
   border-radius: 0 10px 10px 0;
 }
 
+article:hover .chek {
+  background-color: green;
+  width: 60px;
+}
+
 .fa-check {
-  background-color: honeydew;
+  background-color: #fff;
   border-radius: 50%;
 }
 
 .commander {
-  background: #ff79da;
-  background: radial-gradient(circle, #ff79da 0%, #9356dc 100%);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#ff79da), color-stop(#e86edb), color-stop(#cf64dc), color-stop(#b35cdc), to(#9356dc));
+  background-image: linear-gradient(to right bottom, #ff79da, #e86edb, #cf64dc, #b35cdc, #9356dc);
   -webkit-box-shadow: 0px 6px 2px -3px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 6px 2px -3px rgba(0, 0, 0, 0.25);
-  width: 40%;
-  margin-left: 30%;
+  width: 210px;
+  margin: 0 auto;
   padding: 15px 0 15px 0;
   border-radius: 50px;
   text-align: center;
@@ -166,6 +180,10 @@ article {
 
 .bouton_commande {
   padding-bottom: 70px;
+}
+
+.bouton_commande .commander {
+  color: #fff;
 }
 
 /* keyframe anim nom des plats*/
@@ -261,22 +279,4 @@ footer {
 }
 
 /* TEST */
-article:hover {
-  background-color: red;
-}
-
-footer {
-  background-color: #3f3f3f;
-  position: relative;
-  bottom: -1000px;
-}
-
-.liste {
-  background-color: #f2f2f2;
-  border-top-right-radius: 30px;
-  border-top-left-radius: 30px;
-  position: absolute;
-  width: 100%;
-  top: 330px;
-}
 /*# sourceMappingURL=restaurant.css.map */
