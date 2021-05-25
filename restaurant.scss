@@ -202,3 +202,15 @@ footer{
 
 /* TEST */
 
+@media screen and (min-width: 1024px)
+    {
+        body{
+            max-width: 1280px;
+            margin: auto;
+        }
+        /* liste des plats*/
+        .liste_des_repas{
+            width: 100%;
+            display: flex;
+        }
+    }
