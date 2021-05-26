@@ -89,10 +89,6 @@ a .fa-arrow-left {
   border-top-right-radius: 30px;
   border-top-left-radius: 30px;
   position: relative;
-<<<<<<< HEAD
-=======
-  top: -30px;
->>>>>>> 89bacc0636b831634c2e6e74504352939200e708
 }
 
 /*MENU*/
@@ -106,6 +102,8 @@ a .fa-arrow-left {
 
 .titre_repas {
   margin-left: 15px;
+  border-bottom: 3px solid green;
+  width: 40px;
 }
 
 article {
@@ -147,11 +145,6 @@ article {
 }
 
 .chek {
-<<<<<<< HEAD
-=======
-  background-color: green;
-  width: 60px;
->>>>>>> 89bacc0636b831634c2e6e74504352939200e708
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -164,7 +157,6 @@ article {
   border-radius: 0 10px 10px 0;
 }
 
-<<<<<<< HEAD
 article:hover .chek {
   background-color: green;
   width: 60px;
@@ -172,11 +164,8 @@ article:hover .chek {
 
 .fa-check {
   background-color: #fff;
-=======
-.fa-check {
-  background-color: honeydew;
->>>>>>> 89bacc0636b831634c2e6e74504352939200e708
   border-radius: 50%;
+  overflow: hidden;
 }
 
 .commander {
@@ -292,15 +281,17 @@ footer {
 }
 
 /* TEST */
-<<<<<<< HEAD
-=======
-article:hover {
-  background-color: red;
+@media screen and (min-width: 1024px) {
+  body {
+    max-width: 1280px;
+    margin: auto;
+  }
+  /* liste des plats*/
+  .liste_des_repas {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
-
-footer {
-  background-color: #3f3f3f;
-  position: relative;
-}
->>>>>>> 89bacc0636b831634c2e6e74504352939200e708
 /*# sourceMappingURL=restaurant.css.map */
