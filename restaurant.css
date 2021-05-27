@@ -179,10 +179,6 @@ a .fa-arrow-left {
 }
 
 /*MENU*/
-.liste_des_repas section {
-  width: 33%;
-}
-
 .menu p {
   margin: 0px;
 }
@@ -324,6 +320,11 @@ article:hover .chek {
           animation: 1s 1s 1 both anim;
 }
 
+.a4 {
+  -webkit-animation: 1s 1s 1 both anim;
+          animation: 1s 1s 1 both anim;
+}
+
 .b1 {
   -webkit-animation: 1s 1.5s 1 both anim;
           animation: 1s 1.5s 1 both anim;
@@ -397,8 +398,10 @@ footer {
     margin: auto;
   }
   /* liste des plats*/
+  .liste_des_repas section {
+    width: 33%;
+  }
   .liste_des_repas {
-    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
