@@ -172,13 +172,20 @@ article:hover .chek {
 .commander {
   background-image: -webkit-gradient(linear, left top, right bottom, from(#ff79da), color-stop(#e86edb), color-stop(#cf64dc), color-stop(#b35cdc), to(#9356dc));
   background-image: linear-gradient(to right bottom, #ff79da, #e86edb, #cf64dc, #b35cdc, #9356dc);
-  -webkit-box-shadow: 0px 6px 2px -3px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 6px 2px -3px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0px 6px 20px -5px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 6px 20px -5px rgba(0, 0, 0, 0.75);
   width: 210px;
   margin: 0 auto;
-  padding: 15px 0 15px 0;
+  padding: 15px 0;
   border-radius: 50px;
-  text-align: center;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.commander:hover {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+  opacity: 0.8;
 }
 
 .bouton_commande {
@@ -187,6 +194,7 @@ article:hover .chek {
 
 .bouton_commande .commander {
   color: #fff;
+  text-align: center;
 }
 
 /* keyframe anim nom des plats*/
@@ -270,7 +278,14 @@ footer {
 
 .info_footer {
   margin: 5px 0 5px 0;
-  color: #fff;
+}
+
+.info_footer a {
+  color: white;
+}
+
+.info_footer :hover {
+  color: #9356dc;
 }
 
 .fa-hands-helping {

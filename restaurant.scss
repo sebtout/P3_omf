@@ -129,17 +129,22 @@ article:hover .chek{
 
 .commander{
     background-image: linear-gradient(to right bottom, #ff79da, #e86edb, #cf64dc, #b35cdc, #9356dc);
-    box-shadow: 0px 6px 2px -3px rgba(0,0,0,0.25);
+    box-shadow: 0px 6px 20px -5px rgba(0,0,0,0.75);
     width: 210px;
     margin: 0 auto;
-    padding: 15px 0 15px 0;
+    padding: 15px 0;
     border-radius: 50px;
-    text-align: center;
+    transform: scale(1);
+    &:hover {
+        transform: scale(1.15);
+        opacity: 0.8;
+    }
 }
 .bouton_commande{
     padding-bottom: 70px;
     .commander{
         color: #fff;
+        text-align: center;
     }
 }
 
@@ -195,7 +200,12 @@ footer{
 }
 .info_footer{
     margin: 5px 0 5px 0;
-    color: #fff;
+    a {
+        color: white;
+    }
+    :hover {
+        color: #9356dc;
+    }
 }
 .fa-hands-helping{
     font-size: 0.7em;
