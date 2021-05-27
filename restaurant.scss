@@ -65,6 +65,8 @@ div img{
 
 header{
     background-color: #f2f2f2;
+    position: fixed;
+    width: 100%;
 }
 
 .titre_site{
@@ -239,7 +241,6 @@ footer{
 }
 .bloc{
     padding: 20px 0 25px 20px;
-    height: 100%;
 }
 .logo_info_footer{
     font-family: 'Shrikhand', cursive;
@@ -264,17 +265,40 @@ footer{
 
 /* media screen */
 
-@media screen and (min-width: 768px)
-    {
+@media screen and (min-width: 785px)
+    {   
+        header{
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+        div img{
+            position: fixed;
+            height: 100%;
+            width: 100%;
+            left: 0;
+        }
+        
         body{
             max-width: 1280px;
             margin: auto;
+            
+            object-fit: cover;
         }
+        
         /* liste des plats*/
-        .liste_des_repas section {
-            width: 33%;
+        .liste{
+            max-width: 768px;
+            margin: auto;
+            margin-top: 75px;
         }
-        .liste_des_repas{
-            display: flex;
+
+        /*FOOTER*/
+        footer{
+            width: 100%;
+            position: relative;
+        }
+        .bloc{
+            margin: auto;
         }
     }
