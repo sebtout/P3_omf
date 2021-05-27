@@ -277,12 +277,11 @@ footer{
             height: 100%;
             width: 100%;
             left: 0;
+            top: 70px;
         }
         
         body{
-            max-width: 1280px;
             margin: auto;
-            
             object-fit: cover;
         }
         
@@ -290,7 +289,7 @@ footer{
         .liste{
             max-width: 768px;
             margin: auto;
-            margin-top: 75px;
+            margin-top: 150px;
         }
 
         /*FOOTER*/
