@@ -23,16 +23,18 @@ a{
 /*loader de page*/
 
 .load{
-    background: rgb(28, 65, 28);
+    background: #99e2d0;
     position: fixed;
     width: 100%;
     height: 100%;
     z-index: 99;
-    animation: 5s 0s 1 both startpage;
+    animation: 4s 0s 1 both startpage;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
+    top: 0;
+    left: 0;
 }
 @keyframes startpage {
     from {
@@ -48,8 +50,8 @@ a{
     width: 90px;
     height: 90px;
     border-radius: 50%;
-    border-left-color: pink;
-    border-right-color: red;
+    border-left-color: #ff79da;
+    border-right-color: #9356dc;
     animation: 5s 0s infinite both loader;
 }
 @keyframes loader {
