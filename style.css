@@ -151,6 +151,10 @@ nav {
   margin: 35px 0 45px 0;
 }
 
+.bloc_fonction a {
+  width: 33%;
+}
+
 .fonction {
   -webkit-box-shadow: 0px 6px 20px -5px rgba(0, 0, 0, 0.75);
           box-shadow: 0px 6px 20px -5px rgba(0, 0, 0, 0.75);
@@ -175,8 +179,9 @@ nav {
   color: blueviolet;
 }
 
-.fonctionnement h2 {
+.titre_h2 {
   margin-left: 20px;
+  width: 100%;
 }
 
 .fonction i {

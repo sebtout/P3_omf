@@ -107,6 +107,9 @@ nav{
 .fonctionnement{
     margin: 35px 0 45px 0;
 }
+.bloc_fonction a{
+    width: 33%;
+}
 .fonction{
     box-shadow: 0px 6px 20px -5px rgba(0,0,0,0.75);
     background-color: #f2f2f2;
@@ -124,8 +127,9 @@ nav{
     }
 }
 
-.fonctionnement h2{
+.titre_h2{
     margin-left: 20px;
+    width: 100%;
 }
 .fonction i{
     margin: 0 25px 0 35px;
