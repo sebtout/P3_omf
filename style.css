@@ -349,6 +349,7 @@ footer {
   margin-right: 10px;
 }
 
+/*media screen desktop*/
 @media screen and (min-width: 1024px) {
   body {
     max-width: 1280px;
