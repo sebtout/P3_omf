@@ -267,7 +267,6 @@ footer{
 @media screen and (min-width: 768px)
     {
         body{
-            max-width: 1280px;
             margin: auto;
         }
         /* partie FONCTIONNEMENT*/
@@ -277,6 +276,8 @@ footer{
         }
         .fonctionnement{
             display: block;
+            max-width: 1280px;
+            margin: auto;
         }
         .bloc_fonction{
             display: flex;
@@ -292,7 +293,19 @@ footer{
         }
         .restau{
             max-width: 45%;
-
+        }
+        .titre_h2{
+            width: 100%;
+        }
+        .contenair{
+            max-width: 1280px;
+            display: flex;
+            flex-direction: column;
+        }
+        .contenair_restau{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
         }
         .liste_des_restau{
             display: flex;
@@ -305,5 +318,16 @@ footer{
             position: relative;
         }
 
+        /*FOOTER*/
+
+        footer{
+            position: relative;
+        }
+        .bloc {
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
         
     }
