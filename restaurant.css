@@ -179,6 +179,10 @@ a .fa-arrow-left {
 }
 
 /*MENU*/
+.liste_des_repas section {
+  width: 33%;
+}
+
 .menu p {
   margin: 0px;
 }
