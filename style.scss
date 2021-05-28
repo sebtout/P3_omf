@@ -89,7 +89,7 @@ nav{
     box-shadow: 0px 6px 20px -5px rgba(0,0,0,0.75);
     width: 210px;
     margin: 0 auto;
-    padding: 5px 0 5px 0;
+    padding: 1px 0;
     border-radius: 50px;
     transform: scale(1);
     &:hover {
@@ -185,16 +185,23 @@ nav{
 
 .fa-heart {
     position: absolute;
-    top: 0px;
+    top: -10px;
     right: 10px;
     color: rgb(70, 70, 70);
-    
+    font-size: 35px;    
+}
+.heart:hover .far{
+    transition: all 1s linear;
+    opacity: 0!important;
 }
 .plein{
     transition: all 1s linear;
     opacity: 0;
     &:hover {
         opacity: 1;
+        background: -webkit-linear-gradient(#9356dc, #ff79da);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 }
 
