@@ -203,7 +203,7 @@ article:hover .chek{
     border-radius: 50px;
     transform: scale(1);
     &:hover {
-        transform: scale(1.15);
+        transform: scale(1.05);
         box-shadow: 0px 6px 20px 10px rgba(0,0,0,0.95);
         background-image: linear-gradient(to right bottom, #fab1e5, #e793df, #e584f0, #c776ec, #ad76f0);
     }
@@ -226,37 +226,18 @@ article:hover .chek{
             opacity: 1;
         }
     }
-.a1{
-    animation: 1s 0s 1 both anim;
-}
-.a2{
-    animation: 1s 0.5s 1 both anim;
-}
-.a3{
+.anim1{
     animation: 1s 1s 1 both anim;
 }
-.a4{
-    animation: 1s 1s 1 both anim;
-}
-.b1{
+.anim2{
     animation: 1s 1.5s 1 both anim;
 }
-.b2{
+.anim3{
     animation: 1s 2s 1 both anim;
-}
-.b3{
-    animation: 1s 2.5s 1 both anim;
-}.c1{
-    animation: 1s 3s 1 both anim;
-}
-.c2{
-    animation: 1s 3.5s 1 both anim;
-}
-.c3{
-    animation: 1s 4s 1 both anim;
 }
 
 /*FOOTER*/
+
 footer{
     background-color: #3f3f3f;
 }

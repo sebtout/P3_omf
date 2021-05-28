@@ -304,8 +304,8 @@ article:hover .chek {
 }
 
 .commander:hover {
-  -webkit-transform: scale(1.15);
-          transform: scale(1.15);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
   -webkit-box-shadow: 0px 6px 20px 10px rgba(0, 0, 0, 0.95);
           box-shadow: 0px 6px 20px 10px rgba(0, 0, 0, 0.95);
   background-image: -webkit-gradient(linear, left top, right bottom, from(#fab1e5), color-stop(#e793df), color-stop(#e584f0), color-stop(#c776ec), to(#ad76f0));
@@ -339,54 +339,19 @@ article:hover .chek {
   }
 }
 
-.a1 {
-  -webkit-animation: 1s 0s 1 both anim;
-          animation: 1s 0s 1 both anim;
-}
-
-.a2 {
-  -webkit-animation: 1s 0.5s 1 both anim;
-          animation: 1s 0.5s 1 both anim;
-}
-
-.a3 {
+.anim1 {
   -webkit-animation: 1s 1s 1 both anim;
           animation: 1s 1s 1 both anim;
 }
 
-.a4 {
-  -webkit-animation: 1s 1s 1 both anim;
-          animation: 1s 1s 1 both anim;
-}
-
-.b1 {
+.anim2 {
   -webkit-animation: 1s 1.5s 1 both anim;
           animation: 1s 1.5s 1 both anim;
 }
 
-.b2 {
+.anim3 {
   -webkit-animation: 1s 2s 1 both anim;
           animation: 1s 2s 1 both anim;
-}
-
-.b3 {
-  -webkit-animation: 1s 2.5s 1 both anim;
-          animation: 1s 2.5s 1 both anim;
-}
-
-.c1 {
-  -webkit-animation: 1s 3s 1 both anim;
-          animation: 1s 3s 1 both anim;
-}
-
-.c2 {
-  -webkit-animation: 1s 3.5s 1 both anim;
-          animation: 1s 3.5s 1 both anim;
-}
-
-.c3 {
-  -webkit-animation: 1s 4s 1 both anim;
-          animation: 1s 4s 1 both anim;
 }
 
 /*FOOTER*/

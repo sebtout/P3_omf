@@ -137,8 +137,8 @@ nav {
 }
 
 .bouton_explo:hover {
-  -webkit-transform: scale(1.15);
-          transform: scale(1.15);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
   -webkit-box-shadow: 0px 6px 20px 10px rgba(0, 0, 0, 0.95);
           box-shadow: 0px 6px 20px 10px rgba(0, 0, 0, 0.95);
   background-image: -webkit-gradient(linear, left top, right bottom, from(#fab1e5), color-stop(#e793df), color-stop(#e584f0), color-stop(#c776ec), to(#ad76f0));
@@ -190,7 +190,7 @@ nav {
 }
 
 .fonction .fonction_element, .fonction a {
-  font-size: 1.3em;
+  font-size: 1.2em;
   color: black;
 }
 
