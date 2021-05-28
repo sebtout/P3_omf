@@ -109,7 +109,17 @@ nav{
     margin: 35px 0 45px 0;
 }
 .bloc_fonction a{
-    width: 33%;
+    width: 360px;
+}
+@media screen and (max-width: 768px){
+    .bloc_fonction a{
+        width: 100%;
+    }
+}
+.bloc_fonction{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .fonction{
     box-shadow: 0px 6px 20px -5px rgba(0,0,0,0.75);

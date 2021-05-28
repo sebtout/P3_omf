@@ -259,6 +259,7 @@ article {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-right: 20px;
 }
 
 .chek {
@@ -272,17 +273,21 @@ article {
       -ms-flex-align: center;
           align-items: center;
   border-radius: 0 10px 10px 0;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
 }
 
 article:hover .chek {
   background-color: #99E2D0;
-  width: 60px;
+  width: 70px;
 }
 
 .fa-check {
+  font-size: 15px;
   color: #99E2D0;
   background-color: #fff;
   border-radius: 50%;
+  padding: 5px 5px;
 }
 
 .commander {
