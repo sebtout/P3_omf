@@ -168,11 +168,12 @@ article{
 .menu{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     margin-left: 10px;
 }
 .prix{
-    margin-top: 30px;
+    display: flex;
+    align-items: center;
 }
 .chek{
     display: flex;
@@ -180,6 +181,7 @@ article{
     align-items: center;
     border-radius: 0 10px 10px 0;
 }
+
 article:hover .chek{
     background-color: #99E2D0;
     width: 60px;
