@@ -219,6 +219,7 @@ article:hover .fa-check{
     transform: scale(1);
     &:hover {
         transform: scale(1.05);
+        transition: all .5s linear;
         box-shadow: 0px 6px 20px 10px rgba(0,0,0,0.95);
         background-image: linear-gradient(to right bottom, #fab1e5, #e793df, #e584f0, #c776ec, #ad76f0);
     }
