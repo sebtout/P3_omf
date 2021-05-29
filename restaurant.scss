@@ -179,6 +179,11 @@ section article{
     width: 50px;
     padding: 20px;
 }
+@media screen and (max-width: 425px) {
+    .prix {
+        width: 10px;
+    }
+}
 .chek{
     display: flex;
     justify-content: center;
@@ -198,6 +203,11 @@ article:hover .chek{
     background-color: #fff;
     border-radius: 50%;
     padding: 5px 5px;
+    transform: rotate(0deg);
+    transition: all 0.5s linear;
+}
+article:hover .fa-check{
+    transform: rotate(360deg);
 }
 .commander{
     background-image: linear-gradient(to right bottom, #ff79da, #e86edb, #cf64dc, #b35cdc, #9356dc);

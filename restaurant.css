@@ -265,6 +265,12 @@ section article {
   padding: 20px;
 }
 
+@media screen and (max-width: 425px) {
+  .prix {
+    width: 10px;
+  }
+}
+
 .chek {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -293,6 +299,15 @@ article:hover .chek {
   background-color: #fff;
   border-radius: 50%;
   padding: 5px 5px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+
+article:hover .fa-check {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
 .commander {
