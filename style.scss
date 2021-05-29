@@ -52,7 +52,7 @@ a{
     border-radius: 50%;
     border-left-color: #ff79da;
     border-right-color: #9356dc;
-    animation: 5s 0s infinite both loader;
+    animation: 3s 0s linear infinite both loader;
 }
 @keyframes loader {
     0% {

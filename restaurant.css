@@ -69,8 +69,8 @@ div img {
   border-radius: 50%;
   border-left-color: #ff79da;
   border-right-color: #9356dc;
-  -webkit-animation: 5s 0s infinite both loader;
-          animation: 5s 0s infinite both loader;
+  -webkit-animation: 3s 0s linear infinite both loader;
+          animation: 3s 0s linear infinite both loader;
 }
 
 @-webkit-keyframes loader {
@@ -232,6 +232,11 @@ article {
           box-shadow: 0px 6px 2px -3px rgba(0, 0, 0, 0.25);
 }
 
+section article {
+  -webkit-animation: anim 5s;
+          animation: anim 5s;
+}
+
 .prix_et_check {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -250,16 +255,14 @@ article {
       -ms-flex-pack: center;
           justify-content: center;
   margin-left: 10px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 .prix {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-right: 20px;
+  width: 50px;
+  padding: 20px;
 }
 
 .chek {
@@ -275,11 +278,13 @@ article {
   border-radius: 0 10px 10px 0;
   -webkit-transition: all 0.5s linear;
   transition: all 0.5s linear;
+  overflow: hidden;
+  width: 0px;
 }
 
 article:hover .chek {
   background-color: #99E2D0;
-  width: 70px;
+  width: 90px;
 }
 
 .fa-check {
@@ -322,7 +327,7 @@ article:hover .chek {
 }
 
 /* keyframe anim nom des plats*/
-@-webkit-keyframes anim {
+@-webkit-keyframes chek {
   from {
     opacity: 0;
   }
@@ -330,28 +335,54 @@ article:hover .chek {
     opacity: 1;
   }
 }
-@keyframes anim {
+@keyframes chek {
   from {
     opacity: 0;
   }
   to {
     opacity: 1;
+  }
+}
+
+@-webkit-keyframes anim {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes anim {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
   }
 }
 
 .anim1 {
-  -webkit-animation: 1s 1s 1 both anim;
-          animation: 1s 1s 1 both anim;
+  -webkit-animation: 2s 1s 1 both anim;
+          animation: 2s 1s 1 both anim;
 }
 
 .anim2 {
-  -webkit-animation: 1s 1.5s 1 both anim;
-          animation: 1s 1.5s 1 both anim;
+  -webkit-animation: 2s 1.5s 1 both anim;
+          animation: 2s 1.5s 1 both anim;
 }
 
 .anim3 {
-  -webkit-animation: 1s 2s 1 both anim;
-          animation: 1s 2s 1 both anim;
+  -webkit-animation: 2s 2s 1 both anim;
+          animation: 2s 2s 1 both anim;
 }
 
 /*FOOTER*/
@@ -395,6 +426,12 @@ footer {
     top: 0;
     left: 0;
     width: 100%;
+  }
+  .fa-arrow-left {
+    position: relative;
+    top: 0px;
+    left: -270px;
+    font-size: 1.5em;
   }
   div img {
     position: fixed;
