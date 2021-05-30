@@ -258,6 +258,9 @@ section article {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .prix {
@@ -466,7 +469,7 @@ footer {
   .liste {
     max-width: 768px;
     margin: auto;
-    margin-top: 150px;
+    margin-top: 273px;
   }
   /*FOOTER*/
   footer {
