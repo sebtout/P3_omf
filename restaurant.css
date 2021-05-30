@@ -155,12 +155,16 @@ a .fa-arrow-left {
   margin: 0 0 0 20px;
 }
 
+h1 {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
 .title_restau {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
   white-space: nowrap;
-  text-overflow: ellipsis;
   overflow: hidden;
 }
 
@@ -210,6 +214,8 @@ a .fa-arrow-left {
 /*MENU*/
 .menu p {
   margin: 0px;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .bold, .prix {
@@ -264,12 +270,10 @@ section article {
       -ms-flex: 1;
           flex: 1;
   white-space: nowrap;
-  text-overflow: ellipsis;
   overflow: hidden;
 }
 
 .prix {
-  width: 50px;
   padding: 20px;
 }
 

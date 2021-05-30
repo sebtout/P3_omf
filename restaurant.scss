@@ -96,14 +96,15 @@ a .fa-arrow-left{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
     margin: 0 0 0 20px;
-
+}
+h1{
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 .title_restau{
     flex: 1;
     white-space: nowrap;
-    text-overflow: ellipsis;
     overflow: hidden;
 }
 .repas{
@@ -147,6 +148,8 @@ a .fa-arrow-left{
 
 .menu p{
     margin: 0px;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 .bold, .prix{
     font-weight: bold;
@@ -179,11 +182,9 @@ section article{
     margin-left: 10px;
     flex: 1;
     white-space: nowrap;
-    text-overflow: ellipsis;
     overflow: hidden;
 }
 .prix{
-    width: 50px;
     padding: 20px;
 }
 @media screen and (max-width: 425px) {
