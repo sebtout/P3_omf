@@ -145,11 +145,19 @@ h1{
 }
 
 /*MENU*/
+h2{
+    font-weight: 300;
+    font-size: 20px;
+}
 
 .menu p{
     margin: 0px;
     text-overflow: ellipsis;
     overflow: hidden;
+}
+.menu h3{
+    margin: 0;
+    font-size: 15px;
 }
 .bold, .prix{
     font-weight: bold;
