@@ -226,6 +226,8 @@ h2 {
 .menu h3 {
   margin: 0;
   font-size: 15px;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .bold, .prix {
