@@ -96,17 +96,20 @@ a .fa-arrow-left{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
     margin: 0 0 0 20px;
-}
 
+}
+.title_restau{
+    flex: 1;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
 .repas{
     margin: 0 0 50px 0;
 }
 .fa-heart{
-    margin-right: 35px;
-    position: absolute;
-    right: 10px;
-    top: -30px;
     font-size: 30px;
 }
 .contenair_heart:hover .coeur1{
@@ -114,11 +117,11 @@ a .fa-arrow-left{
     opacity: 0!important;
 }
 .contenair_heart{
-    position: relative;
-    margin-top: 25px;
-    font-size: 25px;
+    padding: 20px;
 }
 .plein{
+    position: relative;
+    right: 34px;
     background: -webkit-linear-gradient(#9356dc, #ff79da);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -128,6 +131,7 @@ a .fa-arrow-left{
         opacity: 1;
     }
 }
+
 
 /*LISTE*/
 .liste{
@@ -325,7 +329,7 @@ footer{
         .liste{
             max-width: 768px;
             margin: auto;
-            margin-top: 273px;
+            margin-top: 274px;
         }
 
         /*FOOTER*/
