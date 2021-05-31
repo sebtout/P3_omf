@@ -116,11 +116,6 @@ nav{
 .bloc_fonction a{
     width: 360px;
 }
-@media screen and (max-width: 768px){
-    .bloc_fonction a{
-        width: 100%;
-    }
-}
 .bloc_fonction{
     display: flex;
     flex-wrap: wrap;
@@ -147,7 +142,6 @@ a:hover .fonction i {
     color: #9356dc;
 }
 .titre_h2{
-    margin-left: 20px;
     width: 100%;
 }
 .fonction i{
@@ -189,7 +183,6 @@ a:hover .fonction i {
 }
 .liste_des_restau{
     background-color: #f2f2f2;
-    padding: 25px 15px 55px 15px;
 }
 .info_restau{
     display: flex;
@@ -289,11 +282,22 @@ footer{
 }
 
 /*media screen desktop*/
+@media screen and (max-width: 768px){
+    .bloc_fonction a{
+        width: 100%;
+    }
+    .liste_des_restau{
+        padding: 25px 15px 55px 15px;
+    }
+}
 
 @media screen and (min-width: 768px)
     {
         body{
             margin: auto;
+        }
+        section{
+            padding: 25px 15px 55px 15px;
         }
         /* partie FONCTIONNEMENT*/
 
@@ -308,11 +312,9 @@ footer{
         .bloc_fonction{
             display: flex;
         }
-        .fonctionnement h2{
-            width: 100%;
-        }
 
         /* SECTION LISTE DES RESTAU*/
+
         .liste_des_restau{
             display: flex;
             justify-content: space-around;
@@ -321,9 +323,7 @@ footer{
             max-width: 45%;
             width: 45%;
         }
-        .titre_h2{
-            width: 100%;
-        }
+        
         .contenair{
             max-width: 1280px;
             display: flex;
