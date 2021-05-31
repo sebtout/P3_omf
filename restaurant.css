@@ -345,26 +345,54 @@ article:hover .fa-check {
   border-radius: 50px;
   -webkit-transform: scale(1);
           transform: scale(1);
+  color: #fff;
+  text-align: center;
 }
 
 .commander:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-  -webkit-transition: all .5s linear;
-  transition: all .5s linear;
+  /*transform: scale(1.05);*/
+  -webkit-animation: .3s 0s linear both bouton;
+          animation: .3s 0s linear both bouton;
+  -webkit-transition: all .3s linear;
+  transition: all .3s linear;
   -webkit-box-shadow: 0px 6px 20px 10px rgba(0, 0, 0, 0.95);
           box-shadow: 0px 6px 20px 10px rgba(0, 0, 0, 0.95);
   background-image: -webkit-gradient(linear, left top, right bottom, from(#fab1e5), color-stop(#e793df), color-stop(#e584f0), color-stop(#c776ec), to(#ad76f0));
   background-image: linear-gradient(to right bottom, #fab1e5, #e793df, #e584f0, #c776ec, #ad76f0);
 }
 
-.bouton_commande {
-  padding-bottom: 70px;
+@-webkit-keyframes bouton {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
 }
 
-.bouton_commande .commander {
-  color: #fff;
-  text-align: center;
+@keyframes bouton {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+.bouton_commande {
+  padding-bottom: 70px;
 }
 
 /* keyframe anim nom des plats*/
