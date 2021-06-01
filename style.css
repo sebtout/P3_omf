@@ -447,6 +447,7 @@ footer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    margin: 0 15px;
   }
   /* SECTION LISTE DES RESTAU*/
   .liste_des_restau {
