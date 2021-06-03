@@ -295,7 +295,7 @@ a:hover .fonction i {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 0 20px 0 10px;
+  margin: 0px 10px 0 15px;
 }
 
 .heart {
@@ -309,7 +309,7 @@ a:hover .fonction i {
   top: -10px;
   right: 10px;
   color: #464646;
-  font-size: 35px;
+  font-size: 28px;
 }
 
 .heart:hover .far {
