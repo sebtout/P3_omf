@@ -298,7 +298,7 @@ section article {
 
 @media screen and (max-width: 425px) {
   .prix {
-    width: 10px;
+    width: 25px;
   }
 }
 
@@ -321,7 +321,7 @@ section article {
 
 article:hover .chek {
   background-color: #99E2D0;
-  width: 90px;
+  width: 70px;
 }
 
 .fa-check {
@@ -526,6 +526,9 @@ footer {
     max-width: 768px;
     margin: auto;
     margin-top: 274px;
+  }
+  article:hover .chek {
+    width: 90px;
   }
   /*FOOTER*/
   footer {
