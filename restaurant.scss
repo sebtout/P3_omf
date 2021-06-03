@@ -103,6 +103,7 @@ a .fa-arrow-left{
     align-items: center;
     margin: 0 0 0 20px;
     font-size: 10px;
+    padding-top: 10px;
 }
 h1{
     text-overflow: ellipsis;
@@ -117,18 +118,18 @@ h1{
     margin: 0 0 50px 0;
 }
 .fa-heart{
-    font-size: 30px;
+    font-size: 25px;
 }
 .contenair_heart:hover .coeur1{
     transition: all 1s linear;
     opacity: 0!important;
 }
-.contenair_heart{
+/*.contenair_heart{
     padding: 20px;
-}
+}*/
 .plein{
     position: relative;
-    right: 34px;
+    right: 27px;
     background: -webkit-linear-gradient(#9356dc, #ff79da);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
