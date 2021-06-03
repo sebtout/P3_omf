@@ -13,10 +13,12 @@ a {
   text-decoration: none;
 }
 
-div img {
+.background_img img {
   width: 100%;
   height: 300px;
   z-index: -9999;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 /*load changement de page*/
@@ -126,6 +128,10 @@ header {
   height: 70px;
 }
 
+.titre_site img {
+  width: 145px;
+}
+
 .titre_site h1 {
   text-align: center;
 }
@@ -153,6 +159,7 @@ a .fa-arrow-left {
       -ms-flex-align: center;
           align-items: center;
   margin: 0 0 0 20px;
+  font-size: 10px;
 }
 
 h1 {
@@ -502,7 +509,7 @@ footer {
     left: -270px;
     font-size: 1.5em;
   }
-  div img {
+  .background_img img {
     position: fixed;
     height: 100%;
     width: 100%;
