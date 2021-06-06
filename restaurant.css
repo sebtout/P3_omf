@@ -131,8 +131,6 @@
 
 /*VARIABLE SASS*/
 /*color*/
-/*ombre*/
-/*bouton*/
 /*GLOBAL*/
 h1 {
   font-family: 'Shrikhand', cursive;
@@ -340,8 +338,8 @@ article {
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 60px;
-  -webkit-box-shadow: 0px 6px 2px -3px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 6px 2px -3px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0px 6px 20px -5px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 6px 20px -5px rgba(0, 0, 0, 0.75);
 }
 
 section article {
@@ -426,8 +424,8 @@ article:hover .fa-check {
 .commander {
   background-image: -webkit-gradient(linear, left top, right bottom, from(#ff79da), color-stop(#e86edb), color-stop(#cf64dc), color-stop(#b35cdc), to(#9356dc));
   background-image: linear-gradient(to right bottom, #ff79da, #e86edb, #cf64dc, #b35cdc, #9356dc);
-  -webkit-box-shadow: 0px 6px 2px -3px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 6px 2px -3px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0px 6px 20px -5px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 6px 20px -5px rgba(0, 0, 0, 0.75);
   width: 210px;
   margin: 0 auto;
   padding: 15px 0;
@@ -444,8 +442,8 @@ article:hover .fa-check {
           animation: .3s 0s linear both bouton;
   -webkit-transition: all .3s linear;
   transition: all .3s linear;
-  -webkit-box-shadow: 0px 6px 2px -3px rgba(0, 0, 0, 0.897);
-          box-shadow: 0px 6px 2px -3px rgba(0, 0, 0, 0.897);
+  -webkit-box-shadow: 0px 6px 20px -5px rgba(0, 0, 0, 0.986);
+          box-shadow: 0px 6px 20px -5px rgba(0, 0, 0, 0.986);
   background-image: -webkit-gradient(linear, left top, right bottom, from(#fab1e5), color-stop(#e793df), color-stop(#e584f0), color-stop(#c776ec), to(#ad76f0));
   background-image: linear-gradient(to right bottom, #fab1e5, #e793df, #e584f0, #c776ec, #ad76f0);
 }
