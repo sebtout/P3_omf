@@ -1,4 +1,82 @@
+/*keyframes*/
+@keyframes startpage {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        z-index: -1;
+    }
+}
+@keyframes loader {
+    0% {
+        transform: rotate(0) scale(1);
+    }
+    50% {
+        transform: rotate(360deg) scale(1.20);
+    }
+    100% {
+        transform: rotate(720deg) scale(1);
+    }
+}
+@keyframes bouton {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.10);
+    }
+    
+}
+
+/* keyframe anim nom des plats*/
+
+@keyframes chek {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes anim {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.anim1{
+animation: 2s 1s 1 both anim;
+}
+.anim2{
+animation: 2s 1.5s 1 both anim;
+}
+.anim3{
+animation: 2s 2s 1 both anim;
+}
+
+/*VARIABLE SASS*/
+
+    /*color*/
+
+$colorrose: #ff79da;
+$colorviolet: #9356dc;
+$colorvert: #99e2d0;
+$colorgris: #f2f2f2;
+$colorblanc: #fff;
+    /*ombre*/
+
+$box-shadow: 0px 6px 2px -3px rgba(0,0,0,0.25);
+
+    /*bouton*/
+
+
 /*GLOBAL*/
+
 h1{
     font-family: 'Shrikhand', cursive;
 }
@@ -21,7 +99,7 @@ a{
 /*load changement de page*/
 
 .load{
-    background: #99e2d0;
+    background: $colorvert;
     position: fixed;
     width: 100%;
     height: 100%;
@@ -34,44 +112,24 @@ a{
     top: 0;
     left: 0;
 }
-@keyframes startpage {
-    from {
-        opacity: 1;
-    }
-    to {
-        opacity: 0;
-        z-index: -1;
-    }
-}
 .cube{
-    border: 15px solid #fff;
+    border: 15px solid $colorblanc;
     width: 90px;
     height: 90px;
     border-radius: 50%;
-    border-left-color: #ff79da;
-    border-right-color: #9356dc;
+    border-left-color: $colorrose;
+    border-right-color: $colorviolet;
     animation: 3s 0s linear infinite both loader;
-}
-@keyframes loader {
-    0% {
-        transform: rotate(0) scale(1);
-    }
-    50% {
-        transform: rotate(360deg) scale(1.20);
-    }
-    100% {
-        transform: rotate(720deg) scale(1);
-    }
 }
 
 /*HEADER*/
 
 header{
-    background-color: #f2f2f2;
+    background-color: $colorgris;
     position: fixed;
     width: 100%;
     z-index: 3;
-    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.6);
+    box-shadow: $box-shadow;
 }
 
 .titre_site{
@@ -97,6 +155,7 @@ a .fa-arrow-left{
 }
 
 /*SECTION*/
+
 .nom_du_restau{
     display: flex;
     justify-content: space-between;
@@ -124,13 +183,10 @@ h1{
     transition: all 1s linear;
     opacity: 0!important;
 }
-/*.contenair_heart{
-    padding: 20px;
-}*/
 .plein{
     position: relative;
     right: 27px;
-    background: -webkit-linear-gradient(#9356dc, #ff79da);
+    background: -webkit-linear-gradient($colorviolet, $colorrose);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: all 1s linear;
@@ -140,10 +196,10 @@ h1{
     }
 }
 
-
 /*LISTE*/
+
 .liste{
-    background-color: #f2f2f2;
+    background-color: $colorgris;
     border-top-right-radius: 30px;
     border-top-left-radius: 30px;
     position: relative;
@@ -152,6 +208,7 @@ h1{
 }
 
 /*MENU*/
+
 h2{
     font-weight: 300;
     font-size: 20px;
@@ -174,17 +231,17 @@ h2{
 
 .titre_repas{
     margin-left: 15px;
-    border-bottom: 3px solid #99E2D0;
+    border-bottom: 3px solid $colorvert;
     width: 40px;
 }
 article{
-    background-color: #fff;
+    background-color: $colorblanc;
     margin: 10px 10px 10px 10px;
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
     height: 60px;
-    box-shadow: 0px 6px 2px -3px rgba(0,0,0,0.25);
+    box-shadow: $box-shadow;
 }
 section article{
     animation: anim 5s;
@@ -219,13 +276,13 @@ section article{
     width: 0px;
 }
 article:hover .chek{
-    background-color: #99E2D0;
+    background-color: $colorvert;
     width: 70px;
 }
 .fa-check{
     font-size: 15px;
-    color: #99E2D0;
-    background-color: #fff;
+    color: $colorvert;
+    background-color: $colorblanc;
     border-radius: 50%;
     padding: 5px 5px;
     transform: rotate(0deg);
@@ -236,7 +293,7 @@ article:hover .fa-check{
 }
 .commander{
     background-image: linear-gradient(to right bottom, #ff79da, #e86edb, #cf64dc, #b35cdc, #9356dc);
-    box-shadow: 0px 6px 20px -5px rgba(0,0,0,0.75);
+    box-shadow: $box-shadow;
     width: 210px;
     margin: 0 auto;
     padding: 15px 0;
@@ -248,52 +305,12 @@ article:hover .fa-check{
         /*transform: scale(1.05);*/
         animation: .3s 0s linear both bouton;
         transition: all .3s linear;
-        box-shadow: 0px 6px 20px 10px rgba(0,0,0,0.95);
+        box-shadow: 0px 6px 2px -3px rgba(0, 0, 0, 0.897);
         background-image: linear-gradient(to right bottom, #fab1e5, #e793df, #e584f0, #c776ec, #ad76f0);
-    }
-}
-@keyframes bouton {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.10);
-    }
-    100% {
-        transform: scale(1);
     }
 }
 .bouton_commande{
     padding-bottom: 70px;
-}
-
-/* keyframe anim nom des plats*/
-@keyframes chek {
-        from {
-            opacity: 0;
-        }
-        to {
-            opacity: 1;
-        }
-}
-@keyframes anim {
-        from {
-            opacity: 0;
-            transform: translateY(50px);
-        }
-        to {
-            opacity: 1;
-            transform: translateY(0);
-        }
-    }
-.anim1{
-    animation: 2s 1s 1 both anim;
-}
-.anim2{
-    animation: 2s 1.5s 1 both anim;
-}
-.anim3{
-    animation: 2s 2s 1 both anim;
 }
 
 /*FOOTER*/
@@ -307,15 +324,15 @@ footer{
 .logo_info_footer{
     font-family: 'Shrikhand', cursive;
     margin-bottom: 15px;
-    color: #fff;
+    color: $colorblanc;
 }
 .info_footer{
     margin: 5px 0 5px 0;
     a {
-        color: white;
+        color: $colorblanc;
     }
     :hover {
-        color: #9356dc;
+        color: $colorviolet;
     }
 }
 .fa-hands-helping{
