@@ -80,7 +80,6 @@ h1{
 body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    /*background-image: url(images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);*/
 }
 a{
     text-decoration: none;
@@ -100,7 +99,7 @@ a{
     width: 100%;
     height: 100%;
     z-index: 99;
-    animation: 4s 0s 1 both startpage;
+    animation: 3s 0s 1 both startpage;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -202,19 +201,27 @@ h1{
 /*MENU*/
 
 h2{
-    font-weight: 300;
+    font-weight: 400;
     font-size: 20px;
 }
-.menu p{
-    margin: 0px;
-    text-overflow: ellipsis;
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    white-space: nowrap;
     overflow: hidden;
-}
-.menu h3{
-    margin: 0;
-    font-size: 15px;
-    text-overflow: ellipsis;
-    overflow: hidden;
+        p{
+        margin: 0px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        }
+        h3{
+        margin: 0;
+        font-size: 15px;
+        text-overflow: ellipsis;
+        overflow: hidden; 
+        }
 }
 .bold, .prix{
     font-weight: bold;
@@ -238,15 +245,6 @@ section article{
 }
 .prix_et_check{
     display: flex;
-}
-.menu{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 10px;
-    flex: 1;
-    white-space: nowrap;
-    overflow: hidden;
 }
 .prix{
     padding: 20px;
