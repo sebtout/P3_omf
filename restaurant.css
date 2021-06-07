@@ -364,11 +364,11 @@ section article {
   display: flex;
 }
 
-.prix {
+.prix_et_check .prix {
   padding: 20px;
 }
 
-.chek {
+.prix_et_check .chek {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

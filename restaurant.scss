@@ -245,18 +245,18 @@ section article{
 }
 .prix_et_check{
     display: flex;
-}
-.prix{
-    padding: 20px;
-}
-.chek{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 0 10px 10px 0;
-    transition: all 0.5s linear;
-    overflow: hidden;
-    width: 0px;
+    .prix{
+        padding: 20px;
+    }
+    .chek{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0 10px 10px 0;
+        transition: all 0.5s linear;
+        overflow: hidden;
+        width: 0px;
+    }
 }
 article:hover{ 
     .chek{
