@@ -92,7 +92,20 @@ a {
 
 /*HEADER*/
 .titre_site {
-  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 70px;
+}
+
+.titre_site img {
+  width: 145px;
 }
 
 /*loader de page*/
@@ -136,6 +149,7 @@ a {
   -webkit-box-shadow: 0px 6px 2px -3px rgba(0, 0, 0, 0.25) inset;
           box-shadow: 0px 6px 2px -3px rgba(0, 0, 0, 0.25) inset;
   font-weight: bold;
+  margin: 0;
 }
 
 .info_bouton {
