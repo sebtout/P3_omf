@@ -390,6 +390,11 @@ article:hover .chek {
   width: 70px;
 }
 
+article:hover .fa-check {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
 .fa-check {
   font-size: 15px;
   color: #99e2d0;
@@ -400,11 +405,6 @@ article:hover .chek {
           transform: rotate(0deg);
   -webkit-transition: all 0.5s linear;
   transition: all 0.5s linear;
-}
-
-article:hover .fa-check {
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
 }
 
 .commander {
