@@ -372,12 +372,6 @@ section article {
   padding: 20px;
 }
 
-@media screen and (max-width: 425px) {
-  .prix {
-    width: 25px;
-  }
-}
-
 .chek {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -461,6 +455,7 @@ footer {
   font-family: 'Shrikhand', cursive;
   margin-bottom: 15px;
   color: #fff;
+  font-size: 20px;
 }
 
 .info_footer {
@@ -484,6 +479,12 @@ footer {
 }
 
 /* media screen */
+@media screen and (max-width: 425px) {
+  .prix {
+    width: 25px;
+  }
+}
+
 @media screen and (min-width: 785px) {
   header {
     top: 0;

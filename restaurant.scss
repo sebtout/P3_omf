@@ -127,7 +127,6 @@ header{
     z-index: 3;
     box-shadow: $box-shadow;
 }
-
 .titre_site{
     display: flex;
     justify-content: center;
@@ -206,7 +205,6 @@ h2{
     font-weight: 300;
     font-size: 20px;
 }
-
 .menu p{
     margin: 0px;
     text-overflow: ellipsis;
@@ -221,7 +219,6 @@ h2{
 .bold, .prix{
     font-weight: bold;
 }
-
 .titre_repas{
     margin-left: 15px;
     border-bottom: 3px solid $colorvert;
@@ -253,11 +250,6 @@ section article{
 }
 .prix{
     padding: 20px;
-}
-@media screen and (max-width: 425px) {
-    .prix {
-        width: 25px;
-    }
 }
 .chek{
     display: flex;
@@ -318,6 +310,7 @@ footer{
     font-family: 'Shrikhand', cursive;
     margin-bottom: 15px;
     color: $colorblanc;
+    font-size: 20px;
 }
 .info_footer{
     margin: 5px 0 5px 0;
@@ -337,6 +330,11 @@ footer{
 
 /* media screen */
 
+@media screen and (max-width: 425px) {
+    .prix {
+        width: 25px;
+    }
+}
 @media screen and (min-width: 785px)
     {   
         header{
