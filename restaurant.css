@@ -385,17 +385,7 @@ section article {
   width: 0px;
 }
 
-article:hover .chek {
-  background-color: #99e2d0;
-  width: 70px;
-}
-
-article:hover .fa-check {
-  -webkit-transform: rotate(360deg);
-          transform: rotate(360deg);
-}
-
-.fa-check {
+.prix_et_check .fa-check {
   font-size: 15px;
   color: #99e2d0;
   background-color: #fff;
@@ -405,6 +395,16 @@ article:hover .fa-check {
           transform: rotate(0deg);
   -webkit-transition: all 0.5s linear;
   transition: all 0.5s linear;
+}
+
+article:hover .chek {
+  background-color: #99e2d0;
+  width: 70px;
+}
+
+article:hover .fa-check {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
 .commander {

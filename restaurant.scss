@@ -257,6 +257,15 @@ section article{
         overflow: hidden;
         width: 0px;
     }
+    .fa-check{
+        font-size: 15px;
+        color: $colorvert;
+        background-color: $colorblanc;
+        border-radius: 50%;
+        padding: 5px 5px;
+        transform: rotate(0deg);
+        transition: all 0.5s linear;
+    }
 }
 article:hover{ 
     .chek{
@@ -266,15 +275,6 @@ article:hover{
     .fa-check{
         transform: rotate(360deg);
     }
-}
-.fa-check{
-    font-size: 15px;
-    color: $colorvert;
-    background-color: $colorblanc;
-    border-radius: 50%;
-    padding: 5px 5px;
-    transform: rotate(0deg);
-    transition: all 0.5s linear;
 }
 .commander{
     background-image: linear-gradient(to right bottom, #ff79da, #e86edb, #cf64dc, #b35cdc, #9356dc);
