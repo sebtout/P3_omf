@@ -49,14 +49,10 @@
         transform: translateY(0);
     }
 }
-.anim1{
-animation: 2s 1s 1 both anim;
-}
-.anim2{
-animation: 2s 1.5s 1 both anim;
-}
-.anim3{
-animation: 2s 2s 1 both anim;
+@for $i from 1 through 10{
+    .anim#{$i} {
+        animation: 1.5s $i * .2s both anim;
+        }
 }
 
 /*VARIABLE SASS*/

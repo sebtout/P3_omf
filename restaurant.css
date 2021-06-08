@@ -115,18 +115,53 @@
 }
 
 .anim1 {
-  -webkit-animation: 2s 1s 1 both anim;
-          animation: 2s 1s 1 both anim;
+  -webkit-animation: 1.5s 0.2s both anim;
+          animation: 1.5s 0.2s both anim;
 }
 
 .anim2 {
-  -webkit-animation: 2s 1.5s 1 both anim;
-          animation: 2s 1.5s 1 both anim;
+  -webkit-animation: 1.5s 0.4s both anim;
+          animation: 1.5s 0.4s both anim;
 }
 
 .anim3 {
-  -webkit-animation: 2s 2s 1 both anim;
-          animation: 2s 2s 1 both anim;
+  -webkit-animation: 1.5s 0.6s both anim;
+          animation: 1.5s 0.6s both anim;
+}
+
+.anim4 {
+  -webkit-animation: 1.5s 0.8s both anim;
+          animation: 1.5s 0.8s both anim;
+}
+
+.anim5 {
+  -webkit-animation: 1.5s 1s both anim;
+          animation: 1.5s 1s both anim;
+}
+
+.anim6 {
+  -webkit-animation: 1.5s 1.2s both anim;
+          animation: 1.5s 1.2s both anim;
+}
+
+.anim7 {
+  -webkit-animation: 1.5s 1.4s both anim;
+          animation: 1.5s 1.4s both anim;
+}
+
+.anim8 {
+  -webkit-animation: 1.5s 1.6s both anim;
+          animation: 1.5s 1.6s both anim;
+}
+
+.anim9 {
+  -webkit-animation: 1.5s 1.8s both anim;
+          animation: 1.5s 1.8s both anim;
+}
+
+.anim10 {
+  -webkit-animation: 1.5s 2s both anim;
+          animation: 1.5s 2s both anim;
 }
 
 /*VARIABLE SASS*/
