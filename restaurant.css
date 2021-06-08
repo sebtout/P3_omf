@@ -458,7 +458,6 @@ article:hover .fa-check {
 }
 
 .commander:hover {
-  /*transform: scale(1.05);*/
   -webkit-animation: .3s 0s linear both bouton;
           animation: .3s 0s linear both bouton;
   -webkit-transition: all .3s linear;
