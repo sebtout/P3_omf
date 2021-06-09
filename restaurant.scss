@@ -200,6 +200,13 @@ h2{
     font-weight: 400;
     font-size: 20px;
 }
+h2.titre_repas::after {
+    border-bottom: 3px solid #99e2d0;
+    display: block;
+    content: '';
+    width: 40px;
+    padding-top: 5px;
+}
 .menu{
     display: flex;
     flex-direction: column;
@@ -224,8 +231,8 @@ h2{
 }
 .titre_repas{
     margin-left: 15px;
-    border-bottom: 3px solid $colorvert;
-    width: 40px;
+   /* border-bottom: 3px solid $colorvert;
+    width: 40px; */
 }
 article{
     background-color: $colorblanc;
