@@ -114,6 +114,7 @@
   }
 }
 
+/*BOUCLE*/
 .anim1 {
   -webkit-animation: 1.5s 0.2s both anim;
           animation: 1.5s 0.2s both anim;
@@ -218,8 +219,8 @@ a {
   border-radius: 50%;
   border-left-color: #ff79da;
   border-right-color: #9356dc;
-  -webkit-animation: 3s 0s linear infinite both loader;
-          animation: 3s 0s linear infinite both loader;
+  -webkit-animation: 3s 0s linear infinite loader;
+          animation: 3s 0s linear infinite loader;
 }
 
 /*HEADER*/
