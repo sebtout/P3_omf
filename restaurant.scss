@@ -90,32 +90,6 @@ a{
     object-fit: cover;
 }
 
-/*load changement de page*/
-
-.load{
-    background: $colorvert;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    z-index: 99;
-    animation: 3s 0s both startpage;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    top: 0;
-    left: 0;
-}
-.cube{
-    border: 15px solid $colorblanc;
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    border-left-color: $colorrose;
-    border-right-color: $colorviolet;
-    animation: 3s 0s linear infinite loader;
-}
-
 /*HEADER*/
 
 header{
@@ -176,7 +150,7 @@ h1{
 .plein{
     position: relative;
     right: 27px;
-    background: -webkit-linear-gradient($colorviolet, $colorrose);
+    background-image: linear-gradient(to bottom, $colorviolet, $colorrose);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: all 1s linear;
@@ -236,6 +210,7 @@ h2.titre_repas::after {
     margin-left: 15px;
 }
 article{
+    cursor: pointer;
     background-color: $colorblanc;
     margin: 10px 10px 10px 10px;
     border-radius: 10px;
